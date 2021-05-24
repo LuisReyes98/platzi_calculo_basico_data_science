@@ -58,3 +58,22 @@ donde cada valor del conjunto **X** se le asigna un valor del conunto **Y** , y 
 #### Algebraicamente
 
 $$ y  = f(x) = x^2 $$
+
+## Dominio y rango de una función
+
+**El Dominion de una función**
+Los valores que toma **x** y estan definidos en la funcion $f(x)$
+
+**El Rango de una funcion**
+Todos los resultados que nos puede dar una función
+
+### Ejemplificando con una cafetera**
+
+- El **dominio** son los granos de cafe, no le podemos poner a la maquina harina ,talco o cualquier cosa que no sea cafe.
+
+- la **funcion** es nuestra cafetera
+
+- El **rango** son todas las clases de cafe que podemos preparar
+
+## Cómo programar funciones algebraicas
+
