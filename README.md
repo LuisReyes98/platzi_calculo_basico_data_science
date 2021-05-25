@@ -77,3 +77,6 @@ Todos los resultados que nos puede dar una función
 
 ## Cómo programar funciones algebraicas
 
+https://colab.research.google.com/drive/17ys5APXdAYyiWcu9R4dUfL0Hv_bQ8jGc?usp=sharing#scrollTo=FflFWNqjJCuO
+
+## Funciones trascendentes
