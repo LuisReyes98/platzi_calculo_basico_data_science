@@ -80,3 +80,17 @@ Todos los resultados que nos puede dar una función
 https://colab.research.google.com/drive/17ys5APXdAYyiWcu9R4dUfL0Hv_bQ8jGc?usp=sharing#scrollTo=FflFWNqjJCuO
 
 ## Funciones trascendentes
+
+Funciones que no son polinomicas como el seno, coseno o logaritmos
+
+## Como Manipular Funciones
+
+[Link Google Colab](https://colab.research.google.com/drive/1I4Gykoz2xCC5lPsSObkKQxAkFOYYZwmb?usp=sharing#scrollTo=MimQJFUozsWE)
+
+## Funciones dentro de otras funciones
+
+Conocidas las funciones f y g, la composicion de f y g esta dada por:
+
+$$
+f ∘ g = (f ∘ g)(x) = f(g(x))
+$$
