@@ -94,3 +94,70 @@ Conocidas las funciones f y g, la composicion de f y g esta dada por:
 $$
 f ∘ g = (f ∘ g)(x) = f(g(x))
 $$
+
+## Como se compone una neurona
+
+las neuronas realizan un suma ponderada es decir recibe multiples parametros a los cuales a cada uno le asigna un peso para aumentar o reducir su valor y luego con esos valores de entrada realiza una funcion dando valores de salida.
+
+Una neurona es una parte fundamental de una red neuronal. Básicamente es una forma fancy de referirse a una función.
+Estas necesitan recibir estímulos al igual que ocurre con las neuronas biológicas. Dichos “estímulos” se usan para hacer una suma ponderada dentro de la función
+
+Componentes de una Neurona:
+
+![neurona](./1.png)
+
+![neurona](./2.png)
+
+[video explicativo de redes neuronales](https://www.youtube.com/watch?v=ysqpl6w6Wzg)
+
+## Funciones de activación en una neurona
+
+![funcion de activación](./funcion-de-activacion.png)
+
+Fuciones de activación $\varphi(x)$
+
+[Explicacion extra](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-deep-learning)
+
+[video explicativo](https://www.youtube.com/watch?v=uwbHOpp9xkc)
+
+Funciones de activación
+
+![funciones de activación](./activation-functions.png)
+
+Funcion Escalon
+
+![funcion escalon](./escalon.png)
+
+Formula de la tangente hiperbolica
+
+![formula](./formula-tangente-hiperbolica.webp)
+
+Funcion de activación ReLU y GeLU
+
+![relu_gelu_formula](./Relu-7b4be5a7.webp)
+
+## Función de coste: calcula qué tan erradas son tus predicciones
+
+los errores se elevan al cuadrado para que los errores pequeños se vuelvan aun mas pequeños y que los errores grandes aumenten en proporcion, es una forma en la cual matematicamente se castiga por el error a la funcion
+
+Error cuadratico medio
+
+$$
+\mathrm{MSE} = \frac{1}{n} \sum_{i=1}^{n}(Y_{i}-\hat{Y}_{i})^2
+$$
+
+$
+\mathrm{MSE} = mean squared error
+$
+
+$
+{n} = number of data points
+$
+
+$
+Y_{i} = observed values
+$
+
+$
+\hat{Y}_{i} = predicted values
+$
