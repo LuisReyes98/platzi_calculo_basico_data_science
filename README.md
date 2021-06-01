@@ -199,8 +199,69 @@ Conclusión: La aproximación a 0 de cada lado llevan a diferentes valores… Po
 
 ## ¿De dónde surge la derivada?
 
-Definicion de una derivada
+La tangente de una curva es una recta adyacente a un punto (la linea recta toca un punto de la recta)
+
+para encontrar la recta tangente correcta se toman dos puntos de la recta en los cuales la distancia entre esos dos puntos tienda a cero
+dando como resultado la derivada por definicion
+
+Definicion de una derivada:
+
+$$
+m = \frac{y_2 - y_1}{x_2 - x_1}
+$$
+
+tomando que la distancia entre los puntos es $\Delta x = h$
+
+$$
+m = \frac{f(x + h) - f(x)}{x + h - x} = \frac{f(x + h) - f(x)}{h}
+$$
+
+$$
+\lim_{h \to 0}\frac{f(x+h) - f(x)}{h}
+$$
 
 $$
 f'(x) = \lim_{h \to 0}\frac{f(x+h) - f(x)}{h}
 $$
+
+### Notas extras de *Autor: Ing. Financiero Mauricio Obe, Auxiliar de Catedra de calculo durante 4 años en la universidad UAGRM, Santa Cruz, Bolivia.*
+
+Entender las derivadas es sublime, es una delicia, pero si no le entiendes o alquien no te lo explica bien y el ¿por que? entonces sera muy confunsa, aqui te dejo una explicacion por medio de formulas, espero logres saborearla igual que yo y disfrutemos de las matematicas:
+Primero: Ubica la tangente, la tangente es un angulo
+
+![tangente](./tangente.webp)
+
+Empecemos con la tangente, si entiendes la tangente, lo entenderas todo. (observa bien la imagen y ubica la tangente)
+
+![tangente2](./tangente2.webp)
+
+la tangente es un angulo que se obtiene al dividir el cateto opuesto y el cateto adyacente, si solo vemos el angulo y no el triangulo la imagen quedaria asi:
+
+![tangente3](./tangente3.png)
+
+pero fijate en su formula:
+
+![tangente4](./tangente4.png)
+
+Que tal si ahora esa formula lo llevamos a geometria analitica, veamos:
+
+![pendiente_derivada](./pendiente_derivada.png)
+
+muy parecido a la trigonometria cierto, si en caso conocemos todos los puntos podriamos usar la formula de pendiente que es la misma que tangente, observa:
+
+![pendiente-de-una-recta](./pendiente-de-una-recta.jpg)
+
+![pendiente-de-una-recta2](./pendiente-2.jpg)
+
+Ves que Tangente es igual a pendiente, hasta ahi todo facil y entendible, pero en calculo no conocemos los puntos de cordenadas en el eje cartesiano, tendriamos que graficar la funcion miles, millones de veces para saber su tangente o pendiente en cada punto por lo tanto es inviable, pero puede ser usado para otras cosas tambien, en economia por ejemplo se usa bastante.
+¿Como podemos calcular la tangente o pendiente de una funcion?
+Con limites , veamos:
+Recuerda que ya sabes la formula de tangente, ya sabes la formula de pendiente por lo tanto ya puedes entender la formula de tangente o pendiente de una funcion por definicion, es decir, por limites.
+
+![deduccion](./deduccion.webp)
+
+Una vez entendida la formula podemos imaginar esta maravilla de derivadas de forma grafica, observa, ¿Si o no que es sublime, deliciosa, exquisita?
+
+![gif1](./giphy.gif)
+
+![gif2](./giphy_1.gif)
