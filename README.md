@@ -199,10 +199,14 @@ Conclusión: La aproximación a 0 de cada lado llevan a diferentes valores… Po
 
 ## ¿De dónde surge la derivada?
 
+La derivada es una recta tangente a un punto de una funcion
+
 La tangente de una curva es una recta adyacente a un punto (la linea recta toca un punto de la recta)
 
 para encontrar la recta tangente correcta se toman dos puntos de la recta en los cuales la distancia entre esos dos puntos tienda a cero
 dando como resultado la derivada por definicion
+
+Siendo asi la derivada la recta que es tangente a un punto dado de una funcion
 
 Definicion de una derivada:
 
@@ -265,3 +269,99 @@ Una vez entendida la formula podemos imaginar esta maravilla de derivadas de for
 ![gif1](./giphy.gif)
 
 ![gif2](./giphy_1.gif)
+
+## Notación de la derivada
+
+Existen diferentes formas de expresar la derivada si de notaciones hablamos.
+
+$$
+f'(x) = y' = \frac{dy}{dx} = \frac{df}{dx} = \frac{d}{dx}f(x) = Df(x) = D_xf(x)
+$$
+
+### Notación de Leibniz
+
+Primera derivada
+
+$$
+\frac{d^2y}{dx^2}
+$$
+
+Enesima derivada
+
+$$
+\frac{d^ny}{dx^n}
+$$
+
+Esta notación nos sirve para entender como la derivada puede ser expresada como los incrementos tanto de x como de y cuando el incremento de x tiende a cero.
+
+$$
+\frac{dy}{dx}=\lim_{\Delta x \to 0}\frac{\Delta y}{\Delta x}
+$$
+
+### Notación de Lagrange
+
+Primera derivada
+
+$$
+f'(x)
+$$
+
+Segunda derivada
+
+$$
+f''(x)
+$$
+
+Enesima derivada
+
+$$
+f^n(x)
+$$
+
+## Empecemos a derivar
+
+### Operaciones
+
+Suma
+
+$$
+(f + g)'(x) = f'(x) + g'(x)
+$$
+
+Producto
+
+$$
+(f * g)'(x) = f'(x)*g(x) + f(x)*g'(x)
+$$
+
+Cociente
+
+$$
+(\frac{f(x)}{g(x)})' = \frac{f'(x)g(x) - f(x)g'(x)}{g(x)^2}
+$$
+
+Regla de la cadena
+
+$$
+(f \circ g)'(x) = f'(g(x)) * g'(x)
+$$
+
+nos permite calcular derivadas de funciones compuestas ejemplo
+
+$sin(x²)$ es una función compuesta porque puede construirse como $f(g(x))$ para $f(x)=sin(x)$ y $g(x)=x²$
+
+## Máximos y mínimos: subidas y bajadas en una montaña rusa
+
+### Teorema de la Primera Derivada
+
+- Si f’(x)>0 hacia la izquierda de un punto a y si f’(x)<0 hacia la derecha del punto a, entonces f tiene un máximo relativo en (a, f(a))
+- Si f’(x)<0 hacia la izquierda de un punto a y si f’(x)>0 hacia la derecha del punto a, entonces f tiene un mínino relativo en (a, f(a))
+- Si f’(x) es menos o mayor de ambos lados, no es ni un máximo ni un mínimo
+
+### Teorema de la Segunda Derivada
+
+- Si f’’(x)<0 entonces f tiene un máximo relativo en (x, f(x))
+- Si f’’(x)>0 entonces f tiene un mínimo relativo en (x, f(x))
+- Si f’’(x)=0 no se puede determinar si es un máximo o un mínimo o ninguno de los dos. Se debe utilizar el teorema de la primera derivada para poder determinarlo
+
+[Video explicativo](https://youtu.be/yVWvNE5G6_Y)
