@@ -365,3 +365,92 @@ $sin(x²)$ es una función compuesta porque puede construirse como $f(g(x))$ par
 - Si f’’(x)=0 no se puede determinar si es un máximo o un mínimo o ninguno de los dos. Se debe utilizar el teorema de la primera derivada para poder determinarlo
 
 [Video explicativo](https://youtu.be/yVWvNE5G6_Y)
+
+## ¿Cómo optimizar una función?
+
+Ejemplo mayor area posible para construir un rectangulo con 3 muros que sumen 50 metros en total y el cuarto muro sera un muro natural
+
+Son 50 metros de perimetro de los 3 muros que construiremos y el 4 muro es un muro natural (ocupara todo el tamaño que sea necesario)
+
+Formula de area de un rectangulo, el area es igual a lado por lado
+
+$$
+A = x * y
+$$
+
+En el ejercicio es dado que $ x + y + x = 50$, $ 2x + y = 50$
+
+$ y = 50 - 2x $
+
+$ A = x * (50 -2x) = 50x -2x^2 $
+
+$A(x) = 50x -2x^2 $
+
+para obtener el valor maximo derivamos
+
+$$
+A'(x) = 50 - 4x
+$$
+
+$$
+A'(x) = 50 - 4x = 0
+$$
+
+$$
+x = \frac{-50}{-4} = \frac{25}{2} = 12.5
+$$
+
+$$
+A'[x = 12.45] = 50 - 4(12.45) = \frac{1}{5}
+$$
+
+$$
+A'[x = 12.55] = 50 - 4(12.55) = -\frac{1}{5}
+$$
+
+Ya que a la izquierda del valor obtenido al igualar la derivada a cero hay una pendiente positiva, y a la derecha del valor hay una pendiente negativa, podemos asegurar que ese valor es un punto maximo en la funcion
+
+$$
+y = 50 - 2 (12.5) = 25
+$$
+
+Calculo final de el area
+
+$$
+A = 25 * 12.5 = 312.5 m^2
+$$
+
+### Notas extras
+
+Saber optimizar es muy importante, y a mi entender, lo más difícil es lograr ser capaz de tener el razonamiento acertado de representar algebraicamente las variables de el problema real que estamos buscando optimizar.
+Después es algo más mecánico, derivar y hallar máximos o mínimos y reemplazar para encontrar la solución al problema planteado, pero lo fundamental es el razonamiento para representar acertadamente esos factores de la vida real en variables.
+Este problema es muy sencillo, son solo 3 lados, pero a veces tienen muchas más dimensiones y lados a tener en cuenta (cómo optimizar un cubo), por lo que yo les recomendaría practicar con problemas de optimización hasta tener aceitado este razonamiento.
+Acá les dejo un link de una página web dónde hay varios problemas para hacer con su solución, por si les interesa:
+https://www.matesfacil.com/BAC/optimizar/problemas-resueltos-optimizar-extremos-maximo-minimo-derivada-creciente-decreciente-monotonia.html
+
+## Más dimensiones para tus funciones
+
+funciones de varias variables o multivariables
+
+$$
+w = f(x_1, x_2, ..., x_n)
+$$
+
+$$
+z = f(x,y)
+$$
+
+### Notas alumnos
+
+Les comparto mis apuntes de esta clase, espero que les sean de utilidad.
+
+Clase 21. Más dimensiones para tus funciones
+A lo largo del curso se ha trabajado con funciones que sólo reciben una sola variable por parámetro (univariable). No obstante las funciones pueden tener más de una variable.
+
+Sin importar las variables que tenga la función, al final siempre va a salir un resultado.
+
+![multivariable](./images/funciones-multivariable.png)
+
+Pueden ver la imagen en tamaño original en este [enlace](https://i.ibb.co/nLVL07T/funciones-multivariable.png)
+
+## Diseñando mapas: curvas de nivel
