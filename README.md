@@ -489,6 +489,6 @@ Se debe tener imaginacion, pero cuando tenemos ambas derivadas y lo igualamos a 
 
 - dz/dx = 0
 - dz/dy = 0
-resolver el sistema de ecuaciones = punto max, punto min,
+resolver el sistema de ecuaciones = punto max, punto min, [Punto Silla](https://es.wikipedia.org/wiki/Punto_de_silla)
 
 ![gif 2](./images/giphy_2.gif)
