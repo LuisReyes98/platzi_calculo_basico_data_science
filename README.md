@@ -454,3 +454,41 @@ Sin importar las variables que tenga la función, al final siempre va a salir un
 Pueden ver la imagen en tamaño original en este [enlace](https://i.ibb.co/nLVL07T/funciones-multivariable.png)
 
 ## Diseñando mapas: curvas de nivel
+
+Si alguien tiene la duda de que es la función meshgrid, les dejo una página que me ayudó . [Página](https://interactivechaos.com/es/manual/tutorial-de-numpy/la-funcion-meshgrid)
+
+[Mapas de colores de matplotlib](https://matplotlib.org/stable/tutorials/colors/colormaps.html)
+
+## Derivadas parciales
+
+Las derivadas parciales se utilizan a la hora de derivar una funcion con multiples variables
+
+[Video explicativo](https://youtu.be/RaR2g-h-WoI)
+
+$$
+z = f(x,y)
+$$
+
+derivada parcial respecto a X
+
+$$
+\frac{\partial f}{\partial x}_{x_0,y_0} =\lim_{h \to 0}\frac{f(x_0+h,y_0) - f(x_0,y_0))}{h}
+$$
+
+derivada parcial respecto a Y
+
+$$
+\frac{\partial f}{\partial y}_{x_0,y_0} =\lim_{h \to 0}\frac{f(x_0,y_0+h) - f(x_0,y_0))}{h}
+$$
+
+![derivadas_parciales_graficas](./images/derivadas_parciales_grafica.webp)
+
+### Notas extras
+
+Se debe tener imaginacion, pero cuando tenemos ambas derivadas y lo igualamos a cero podemos encontrar puntos maximos y minimos:
+
+- dz/dx = 0
+- dz/dy = 0
+resolver el sistema de ecuaciones = punto max, punto min,
+
+![gif 2](./images/giphy_2.gif)
