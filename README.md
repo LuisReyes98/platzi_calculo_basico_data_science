@@ -492,3 +492,115 @@ Se debe tener imaginacion, pero cuando tenemos ambas derivadas y lo igualamos a 
 resolver el sistema de ecuaciones = punto max, punto min, [Punto Silla](https://es.wikipedia.org/wiki/Punto_de_silla)
 
 ![gif 2](./images/giphy_2.gif)
+
+## Ejemplos de derivadas parciales
+
+Ejemplo 1:
+$$
+f(x, y) = 4x^3 +6x^2y^6 + 5y + 3
+$$
+
+$$
+\frac{\partial f}{\partial x} = 12x^2 + 12xy^6 + 0 + 0 = 12x^2 + 12xy^6
+$$
+
+$$
+\frac{\partial f}{\partial y} = 0 + 36x^2y^5 + 5 + 0 = 36x^2y^5 + 5
+$$
+
+Ejemplo 2:
+
+$$
+f(x,y) = y \sin(xy)
+$$
+
+Regla del producto
+$$
+\frac{\partial f}{\partial y} = f(y)g'(y) + g(y)f'(y)
+$$
+
+$f(y) = y$
+
+$f'(y)=1$
+
+$g(y) = \sin(xy)$
+
+$g'(y) = \cos(xy) * x = x\cos(xy)$
+
+$\frac{\partial}{\partial y}\sin(y)=\cos(y)$
+
+$\frac{\partial}{\partial y}xy=x$
+
+$$
+\frac{\partial f}{\partial y} = yx\cos(xy) + \sin(xy)
+$$
+
+### Notas extras
+
+Dato Matemático:
+
+- El conjunto de primeras derivadas parciales se le conoce como Gradiente.
+- La Matriz de segundas derivadas parciales se le comoce como Hessiana.
+- El determinante de la matriz Hessiana se le conoce como Jacobiano
+- El Jacobiano es útil cuando queremos hacer transformaciones. Por ejemplo: Pasar del plano cartesiano a coordenadas polares.
+
+## Regla de la cadena y su utilidad en cálculo multivariable
+
+[lectura en platzi](https://platzi.com/clases/2155-calculo-data-science/35914-regla-de-la-cadena-y-su-utilidad-en-calculo-multiv/)
+
+[Video explicativo](https://www.youtube.com/watch?v=DFn9wUEBnbU)
+
+## Subamos con el gradiente
+
+El gradiente se expresa como:
+
+$$
+\nabla f = \frac{\partial f}{\partial x}\hat{i} + \frac{\partial f}{\partial y}\hat{j}
+$$
+
+Ejemplo
+
+$$
+f(x, y) = 100 - x^2 - y^2
+$$
+
+$$
+\frac{\partial f}{\partial x} = -2x
+$$
+
+$$
+\frac{\partial f}{\partial y} = -2y
+$$
+
+$$
+\nabla f = -2x\hat{i} - 2y\hat{j}
+$$
+
+### Notas Extras
+
+El gradiente almacena toda la información de la derivadas parciales de una función multivariable. Pero es más que un simple dispositivo de almacenamiento, tiene muchas aplicaciones en muchas área de las ciencias.
+El gradiente es una función escalar multivariable que empaqueta toda la información de sus derivadas parciales en un vector.
+
+![gradiente_1](./images/gradiente_1.png)
+
+Cabe resaltar el la forma del gradiente varia dependiendo las coordenadas que utilicemos, tiene las misma interpretación, pero se utiliza se escribe de destina manera.
+
+![gradiente_2](./images/gradiente_2.png)
+
+## ¿Qué es el descenso del gradiente?
+
+[DotCSV QUe es el descenso del gradiente](https://www.youtube.com/watch?v=A6FiCDoz8_4)
+
+$$
+f(x, y) = x^2 + y^2
+$$
+
+$$
+w: w - \nabla f
+$$
+
+$$
+w: w - \alpha\nabla f
+$$
+
+donde $\alpha$ es el learning rate
