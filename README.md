@@ -224,6 +224,7 @@ $$
 \lim_{h \to 0}\frac{f(x+h) - f(x)}{h}
 $$
 
+**Derivada por definicion:**
 $$
 f'(x) = \lim_{h \to 0}\frac{f(x+h) - f(x)}{h}
 $$
@@ -604,3 +605,8 @@ w: w - \alpha\nabla f
 $$
 
 donde $\alpha$ es el learning rate
+
+Infografia
+![Infografia](./images/desc-gradiente-info.png)
+
+## Graficando nuestra función de coste
