@@ -73,7 +73,7 @@ Todos los resultados que nos puede dar una función
 
 - la **funcion** es nuestra cafetera
 
-- El **rango** son todas las clases de cafe que podemos preparar
+- El **rango** (o codominio) son todas las clases de cafe que podemos preparar
 
 ## Cómo programar funciones algebraicas
 
@@ -82,6 +82,18 @@ https://colab.research.google.com/drive/17ys5APXdAYyiWcu9R4dUfL0Hv_bQ8jGc?usp=sh
 ## Funciones trascendentes
 
 Funciones que no son polinomicas como el seno, coseno o logaritmos
+
+$$
+\sin(x)
+$$
+
+$$
+\log_{10}(x)
+$$
+
+$$
+\cos(x)
+$$
 
 ## Como Manipular Funciones
 
@@ -112,6 +124,8 @@ Componentes de una Neurona:
 
 ## Funciones de activación en una neurona
 
+Una funcion ade activación va **despues** de la neurona y funciona como un filtro para determinar si el valor que esta dando la neurona es suficiente para que se active, y el valor de salida depende del tipo de función de activación
+
 ![funcion de activación](./images/funcion-de-activacion.png)
 
 Fuciones de activación $\varphi(x)$
@@ -140,7 +154,9 @@ Funcion de activación ReLU y GeLU
 
 los errores se elevan al cuadrado para que los errores pequeños se vuelvan aun mas pequeños y que los errores grandes aumenten en proporcion, es una forma en la cual matematicamente se castiga por el error a la funcion
 
-Error cuadratico medio
+### Error cuadratico medio
+
+En estadística, el error cuadrático medio (ECM) de un estimador mide el promedio de los errores al cuadrado, es decir, la diferencia entre el estimador y lo que se estima. El ECM es una función de riesgo, correspondiente al valor esperado de la pérdida del error al cuadrado o pérdida cuadrática. La diferencia se produce debido a la aleatoriedad o porque el estimador no tiene en cuenta la información que podría producir una estimación más precisa
 
 $$
 \mathrm{MSE} = \frac{1}{n} \sum_{i=1}^{n}(Y_{i}-\hat{Y}_{i})^2
@@ -161,6 +177,13 @@ $
 $
 \hat{Y}_{i} = predicted values
 $
+
+Una funcion de coste nos representa que tan alejados estan nuestros datos resultado de los datos reales.
+
+FUNCIÓN DE COSTE --> ES EL ERROR CUADRÁTICO MEDIO --> E.C.M.
+El Error cuadrático medio es un nombre muy complejo y rimbombante para algo más sencillo que es hallar la media de todos los errores, pero ponemos los errores al cuadrado (supongo que para exagerarlos más).
+E.C.M. --> Errores al cuadrado dividido entre número de errores.
+Denominamos errores a la diferencia entre la predicción y la realidad. (O entre la gráfica y su simplificación a una linea).
 
 ## ¿Qué es un límite?
 
@@ -355,9 +378,9 @@ $sin(x²)$ es una función compuesta porque puede construirse como $f(g(x))$ par
 
 ### Teorema de la Primera Derivada
 
-- Si f’(x)>0 hacia la izquierda de un punto a y si f’(x)<0 hacia la derecha del punto a, entonces f tiene un máximo relativo en (a, f(a))
-- Si f’(x)<0 hacia la izquierda de un punto a y si f’(x)>0 hacia la derecha del punto a, entonces f tiene un mínino relativo en (a, f(a))
-- Si f’(x) es menos o mayor de ambos lados, no es ni un máximo ni un mínimo
+- **máximo** Si $f’(x)>0$ hacia la izquierda de un punto a y si $f’(x)<0$ hacia la derecha del punto a, entonces f tiene un **máximo** relativo en $(a, f(a))$
+- **mínino**  Si $f’(x)<0$ hacia la izquierda de un punto a y si $f’(x)>0$ hacia la derecha del punto a, entonces f tiene un **mínino** relativo en $(a, f(a))$
+- Si $f’(x)$ es menos o mayor de ambos lados, no es **ni un máximo ni un mínimo**
 
 ### Teorema de la Segunda Derivada
 
